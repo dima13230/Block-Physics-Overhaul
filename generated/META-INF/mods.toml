@@ -17,9 +17,9 @@ license="All rights reserved"
 # The modid of the mod
 modId="bpo" #mandatory
 # The version number of the mod - there's a few well known null variables useable here or just hardcode it
-version="0.1.0" #mandatory
+version="0.1.1" #mandatory
  # A display name for the mod
-displayName="Block Physics Overhaul" #mandatory
+displayName="Block Physics Overhaul (Rebirth)" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI

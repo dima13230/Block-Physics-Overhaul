@@ -134,7 +134,7 @@ public class BFManager {
 	}
 
 	public static void stepOnBlock(World worldIn, BlockPos pos, Entity entityIn, BlockState state) {
-		if (!worldIn.isRemote && entityIn.getType() == EntityType.PLAYER && BPOConfig.MAIN.triggerOnStep) {
+		if (!worldIn.isRemote && BPOConfig.MAIN.triggerOnStep) { // (entityIn.getType() == EntityType.PLAYER) -- restrict to player only
 			addTask((ServerWorld) worldIn, pos, state, Type.UPDATE);
 		}
 	}
